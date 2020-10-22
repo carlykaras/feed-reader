@@ -1,0 +1,12 @@
+[package]
+name = "feed-reader"
+version = "0.1.0"
+authors = ["carlykaras <carly.karas@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rss = "1.0"
+reqwest = "0.10.8"
+tokio = { version = "0.2", features = ["full"] }
